@@ -41,15 +41,17 @@ export default function WhyChooseUsSection() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {benefits.map((benefit, index) => (
               <FadeInOnScroll key={index} delay={`delay-${index * 100}`}>
-                <Card className="text-center h-full hover:shadow-lg transition-shadow duration-300 bg-card p-2">
-                  <CardHeader className="items-center">
-                    <div className="p-3 bg-primary/10 rounded-full mb-3 inline-block">
+                <Card className="h-full hover:shadow-xl transition-shadow duration-300 bg-card">
+                  <CardHeader className="flex flex-row items-start space-x-4 pb-3">
+                    <div className="p-2 bg-primary/10 rounded-md mt-1">
                        {benefit.icon}
                     </div>
-                    <CardTitle className="text-xl text-primary">{benefit.title}</CardTitle>
+                    <CardTitle className="text-xl text-primary pt-1">{benefit.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-foreground/75 leading-relaxed">{benefit.description}</p>
+                    <p className="text-foreground/75 leading-relaxed text-left ml-[calc(2rem+0.5rem+0.5rem)] -mt-2"> {/* Adjust margin to align with title if icon has padding */}
+                      {benefit.description}
+                    </p>
                   </CardContent>
                 </Card>
               </FadeInOnScroll>
