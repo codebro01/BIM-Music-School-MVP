@@ -19,6 +19,7 @@ import {
 import EnrollmentForm from "@/components/landing/EnrollmentForm";
 import { Menu, Music2 } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import Image from 'next/image';
 
 const navLinks = [
   { href: '#about', label: 'About Us' },
@@ -55,6 +56,14 @@ export default function Navbar() {
         <div className="container mx-auto px-4 h-20 flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 text-primary hover:text-accent transition-colors" aria-label="Echo Academy Home">
+            <div className="logo">
+              <Image
+                src={'/bim-logo.jpg'}
+                alt = 'Logo'
+                height = '200'
+                width = '200'
+              ></Image>
+            </div>
             <Music2 className="h-8 w-8" />
             <span className="text-2xl font-bold">Echo Academy</span>
           </Link>
