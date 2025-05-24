@@ -22,7 +22,7 @@
     --muted: 226 30% 85%;
     --muted-foreground: 226 20% 45%;
 
-    --accent: 216 50% 53%; /* #4F77BE Blue */
+    --accent: 25.99 62.06% 50.39%; /* New Orange/Brown */
     --accent-foreground: 226 50% 96%; /* Light text on accent */
 
     --destructive: 0 84.2% 60.2%;
@@ -30,7 +30,7 @@
 
     --border: 226 30% 80%;
     --input: 226 30% 80%;
-    --ring: 216 50% 53%; /* Accent color for focus rings */
+    --ring: 25.99 62.06% 50.39%; /* New Orange/Brown for focus rings */
 
     --radius: 0.5rem;
 
@@ -46,10 +46,10 @@
     --sidebar-foreground: 226 25% 25%;
     --sidebar-primary: 226 56% 30%; /* Same as main primary */
     --sidebar-primary-foreground: 226 50% 96%;
-    --sidebar-accent: 216 50% 53%; /* Same as main accent */
+    --sidebar-accent: 25.99 62.06% 50.39%; /* Match new main accent */
     --sidebar-accent-foreground: 226 50% 96%;
     --sidebar-border: 226 30% 85%;
-    --sidebar-ring: 216 50% 53%;
+    --sidebar-ring: 25.99 62.06% 50.39%; /* Match new main accent */
   }
 
   .dark {
@@ -71,15 +71,15 @@
     --muted: 226 25% 25%;
     --muted-foreground: 226 30% 70%;
 
-    --accent: 226 56% 40%; /* Darker Indigo for accent */
-    --accent-foreground: 226 50% 90%;
+    --accent: 25.99 62.06% 55.39%; /* Lighter Orange/Brown for dark mode */
+    --accent-foreground: 226 50% 90%; /* Light text on accent */
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
 
     --border: 226 25% 25%;
     --input: 226 25% 25%;
-    --ring: 216 50% 53%;
+    --ring: 25.99 62.06% 55.39%; /* Lighter Orange/Brown for focus rings in dark mode */
     
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
@@ -91,10 +91,10 @@
     --sidebar-foreground: 226 50% 90%;
     --sidebar-primary: 216 50% 53%;
     --sidebar-primary-foreground: 226 25% 10%;
-    --sidebar-accent: 226 56% 40%;
+    --sidebar-accent: 25.99 62.06% 55.39%; /* Match new dark accent */
     --sidebar-accent-foreground: 226 50% 90%;
     --sidebar-border: 226 25% 20%;
-    --sidebar-ring: 216 50% 53%;
+    --sidebar-ring: 25.99 62.06% 55.39%; /* Match new dark accent */
   }
 }
 
