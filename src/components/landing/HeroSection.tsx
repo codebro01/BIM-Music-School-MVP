@@ -52,7 +52,7 @@ export default function HeroSection() {
 
             <Button
                   size="lg"
-                  className="bg-primary hover:bg-primary/90 w-full md:w-auto   text-accent-foreground px-10 py-6 text-lg rounded-lg shadow-lg transition-transform transform hover:scale-105"
+                  className="bg-primary hover:bg-primary/90 w-full md:w-auto mt-3 md:mt-0   text-accent-foreground px-10 py-6 text-lg rounded-lg shadow-lg transition-transform transform hover:scale-105"
                 >
                   Learn More
               </Button>
