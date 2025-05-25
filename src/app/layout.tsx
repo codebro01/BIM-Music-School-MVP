@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Belmoot Institute of Music - Discover the Sound of Excellence',
-  description: 'Affordable music lessons for all ages. Piano, guitar, drums, voice & more.',
+  title: 'Belmoot Institute of Music - Where Young Stars Find Their Sound',
+  description: 'Affordable music lessons for Kids and Teens. Piano, guitar, drums, voice & more.',
 };
 
 export default function RootLayout({
