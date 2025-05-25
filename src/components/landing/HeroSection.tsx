@@ -6,6 +6,7 @@ import EnrollmentForm from "./EnrollmentForm";
 import Image from "next/image";
 import FadeInOnScroll from "@/components/shared/FadeInOnScroll";
 import React from "react";
+import Link from "next/link";
 
 export default function HeroSection() {
   const [isDialogOpen, setIsDialogOpen] = React.useState(false);
@@ -16,14 +17,15 @@ export default function HeroSection() {
         <div className="flex flex-col md:flex-row items-center gap-12">
           
           {/* Left Column: Text Content */}
-          <FadeInOnScroll className="md:w-1/2 lg:w-3/5 text-left">
+          <FadeInOnScroll className="md:w-1/2 lg:1/2 text-left">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold !leading-tight mb-6 text-primary">
-              Discover the Sound of Excellence
+            Where Young Stars Find Their Sound.
             </h1>
             <p className="text-lg md:text-xl max-w-xl mb-10 text-foreground/80">
               Affordable lessons for kids, teens & adults — piano, guitar, drums, voice & more.
             </p>
             
+            <div className="flex align-center gap-[10] flex-col md:flex-row ">
             <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
               <DialogTrigger asChild>
                 <Button
@@ -46,16 +48,26 @@ export default function HeroSection() {
                 </div>
               </DialogContent>
             </Dialog>
+            <Link href={'#about'}>
+
+            <Button
+                  size="lg"
+                  className="bg-primary hover:bg-primary/90 text-accent-foreground px-10 py-6 text-lg rounded-lg shadow-lg transition-transform transform hover:scale-105"
+                >
+                  Learn More
+              </Button>
+            </Link>
+            </div>
           </FadeInOnScroll>
 
           {/* Right Column: Image */}
-          <FadeInOnScroll className="md:w-1/2 lg:w-2/5">
+          <FadeInOnScroll className="md:w-1/2 lg:w-1/2">
             <Image
-              src="https://placehold.co/600x450.png"
-              alt="Students enjoying music lessons at Echo Academy"
+              src="/boy-girl.png"
+              alt="Students enjoying music lessons at Belmoot Institute of Music"
               width={600}
               height={450}
-              className="rounded-xl shadow-2xl w-full h-auto object-cover"
+              className="rounded-xl shadow-md w-full h-auto object-cover"
               data-ai-hint="music class students"
               priority
             />

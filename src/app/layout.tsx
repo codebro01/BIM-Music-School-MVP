@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Echo Academy - Discover the Sound of Excellence',
+  title: 'Belmoot Institute of Music - Discover the Sound of Excellence',
   description: 'Affordable music lessons for all ages. Piano, guitar, drums, voice & more.',
 };
 

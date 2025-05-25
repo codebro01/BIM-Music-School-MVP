@@ -55,17 +55,17 @@ export default function Navbar() {
       )}>
         <div className="container mx-auto px-4 h-20 flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2 text-primary hover:text-accent transition-colors" aria-label="Echo Academy Home">
+          <Link href="/" className="flex items-center space-x-2 text-primary hover:text-accent transition-colors" aria-label="Belmoot Institute of Music Home">
             <div className="logo">
               <Image
-                src={'/bim-logo.jpg'}
+                src={'/bim-logo.png'}
                 alt = 'Logo'
-                height = '200'
-                width = '200'
+                height = '70'
+                width = '70'
               ></Image>
             </div>
-            <Music2 className="h-8 w-8" />
-            <span className="text-2xl font-bold">Echo Academy</span>
+            {/* <Music2 className="h-8 w-8" />
+            <span className="text-2xl font-bold">Belmoot Institute of Music</span> */}
           </Link>
 
           {/* Desktop Navigation */}
@@ -93,9 +93,9 @@ export default function Navbar() {
                 </Button>
               </SheetTrigger>
               <SheetContent side="right" className="w-[280px] bg-background p-6 flex flex-col">
-                <Link href="/" className="flex items-center space-x-2 text-primary mb-6" onClick={() => setIsMobileMenuOpen(false)} aria-label="Echo Academy Home">
+                <Link href="/" className="flex items-center space-x-2 text-primary mb-6" onClick={() => setIsMobileMenuOpen(false)} aria-label="Belmoot Institute of Music Home">
                   <Music2 className="h-7 w-7" />
-                  <span className="text-xl font-bold">Echo Academy</span>
+                  <span className="text-xl font-bold">Belmoot Institute of Music</span>
                 </Link>
                 <nav className="flex flex-col space-y-5">
                   {navLinks.map(link => (

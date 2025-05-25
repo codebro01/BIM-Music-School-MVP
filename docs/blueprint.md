@@ -1,9 +1,9 @@
-# **App Name**: Echo Academy
+# **App Name**: Belmoot Institute of Music
 
 ## Core Features:
 
 - Hero Section: Display the hero section with the title 'Discover the Sound of Excellence', subtitle 'Affordable lessons for kids, teens & adults — piano, guitar, drums, voice & more.', and a 'Book a Free Trial' call to action button.
-- About Us Section: Include an 'About Us' section with engaging text highlighting the school's mission and values, its dedication to nurturing musical talent, and providing a supportive learning environment. Focus on accessibility and personalized education. Example text: 'At Echo Academy, we believe everyone deserves the chance to explore their musical potential. Founded on the principle of accessible music education, our experienced instructors are committed to providing personalized lessons tailored to each student’s unique learning style and goals.'
+- About Us Section: Include an 'About Us' section with engaging text highlighting the school's mission and values, its dedication to nurturing musical talent, and providing a supportive learning environment. Focus on accessibility and personalized education. Example text: 'At Belmoot Institute of Music, we believe everyone deserves the chance to explore their musical potential. Founded on the principle of accessible music education, our experienced instructors are committed to providing personalized lessons tailored to each student’s unique learning style and goals.'
 - Programs Offered: Showcase the 'Programs / Instruments Offered' section, clearly listing available instruments and programs such as piano, guitar, drums, voice, and more. Each item includes a brief description to attract potential students.
 - Why Choose Us Section: Feature a 'Why Choose Us' section highlighting unique benefits like experienced instructors, flexible scheduling, a supportive community, and state-of-the-art facilities. Emphasize the academy's commitment to fostering a love for music and achieving excellence.
 - Contact/Footer Section: Include a contact/footer section with contact information (address, phone number, email), social media links, and a copyright notice. Add a simple contact form for direct inquiries.

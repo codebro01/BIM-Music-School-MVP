@@ -25,24 +25,24 @@ export default function ContactFooterSection() {
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <MapPin className="h-6 w-6 mr-3 mt-1 shrink-0 text-accent" />
-                  <span>123 Music Lane, Harmony City, ST 12345</span>
+                  <span>123 Music Lane, Abuja</span>
                 </li>
                 <li className="flex items-center">
                   <Phone className="h-5 w-5 mr-3 shrink-0 text-accent" />
-                  <a href="tel:+11234567890" className="hover:text-accent transition-colors">(123) 456-7890</a>
+                  <a href="tel:+11234567890" className="hover:text-accent transition-colors">(+234)91xxxxxxxx</a>
                 </li>
                 <li className="flex items-center">
                   <Mail className="h-5 w-5 mr-3 shrink-0 text-accent" />
-                  <a href="mailto:info@echoacademy.music" className="hover:text-accent transition-colors">info@echoacademy.music</a>
+                  <a href="mailto:info@echoacademy.music" className="hover:text-accent transition-colors">info@belmootinstituteofmusic.com.ng</a>
                 </li>
               </ul>
               <div className="mt-8">
                 <h4 className="text-lg font-semibold mb-3">Follow Us</h4>
                 <div className="flex space-x-4">
-                  <Link href="#" passHref legacyBehavior><a target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-primary-foreground hover:text-accent transition-colors"><Facebook size={24} /></a></Link>
-                  <Link href="#" passHref legacyBehavior><a target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-primary-foreground hover:text-accent transition-colors"><Instagram size={24} /></a></Link>
-                  <Link href="#" passHref legacyBehavior><a target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)" className="text-primary-foreground hover:text-accent transition-colors"><XIcon /></a></Link>
-                  <Link href="#" passHref legacyBehavior><a target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="text-primary-foreground hover:text-accent transition-colors"><Youtube size={24} /></a></Link>
+                  <Link href="https://www.facebook.com" passHref legacyBehavior><a target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-primary-foreground hover:text-accent transition-colors"><Facebook size={24} /></a></Link>
+                  <Link href="https://www.instagram.com" passHref legacyBehavior><a target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-primary-foreground hover:text-accent transition-colors"><Instagram size={24} /></a></Link>
+                  <Link href="https://www.x.com" passHref legacyBehavior><a target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)" className="text-primary-foreground hover:text-accent transition-colors"><XIcon /></a></Link>
+                  <Link href="https://www.youtube.com" passHref legacyBehavior><a target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="text-primary-foreground hover:text-accent transition-colors"><Youtube size={24} /></a></Link>
                 </div>
               </div>
             </div>
@@ -55,7 +55,7 @@ export default function ContactFooterSection() {
           </div>
 
           <div className="border-t border-primary-foreground/20 pt-8 text-center text-sm text-primary-foreground/70">
-            <p>&copy; {currentYear} Echo Academy. All rights reserved.</p>
+            <p>&copy; {currentYear} Belmoot Institute of Music. All rights reserved.</p>
             <p>Designed with <span className="text-accent">&hearts;</span> for the love of music.</p>
           </div>
         </div>

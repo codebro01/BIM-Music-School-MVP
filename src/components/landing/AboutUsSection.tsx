@@ -33,10 +33,10 @@ export default function AboutUsSection() {
           <div className="grid md:grid-cols-2 gap-12 items-start"> {/* Changed to items-start for better alignment if content heights differ */}
             <div className="order-2 md:order-1">
               <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
-                About Echo Academy
+                About Belmoot Institute of Music
               </h2>
               <p className="text-lg text-foreground/80 mb-8 leading-relaxed">
-                At Echo Academy, we believe everyone deserves the chance to explore their musical potential. Founded on the principle of accessible music education, we cater to all ages and skill levels, offering a diverse range of programs to help you embark on or continue your musical journey.
+                At Belmoot Institute of Music, we believe everyone deserves the chance to explore their musical potential. Founded on the principle of accessible music education, we cater to all ages and skill levels, offering a diverse range of programs to help you embark on or continue your musical journey.
               </p>
               <div className="space-y-6">
                 {coreValues.map((value, index) => (
@@ -60,7 +60,7 @@ export default function AboutUsSection() {
             </div>
             <div className="order-1 md:order-2 rounded-xl overflow-hidden shadow-xl mt-0 md:mt-8 sticky top-24"> {/* Added sticky and top for better visual balance with potentially longer text/card column */}
               <Image
-                src="https://placehold.co/600x450.png" 
+                src="/group.jpg" 
                 alt="Music teacher interacting with students in a vibrant classroom"
                 width={600}
                 height={450} 
